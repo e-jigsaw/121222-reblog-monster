@@ -1,0 +1,60 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title 121222-reblog-monster
+		link(rel="stylesheet", href="stylesheets/impress.css")
+		script(type="text/javascript", src="http://code.jquery.com/jquery-1.8.3.min.js")
+	body.impress-not-supported
+		#impress
+			.step.tile(data-x="0", data-y="0", data-scale="1")
+				img(src="http://media.tumblr.com/tumblr_mex0apEvWE1qa2uot.png")
+				p(style="font-size: 72px;") Reblog Monster
+			.step.tile.blue(data-x="0", data-y="800", data-scale="1")
+				h1 概要
+			.step.tile.blue(data-x="620", data-y="800", data-scale="1")
+				p Tumblrクライアント
+				img(src="http://assets.tumblr.com/images/logo.png")
+			.step.tile.pink(data-x="0", data-y="1420", data-scale="1")
+				h1 定番
+			.step.tile.pink(data-x="620", data-y="1420", data-scale="1")
+				p 既存サービスのクライアントは手堅い
+				p (iOS AppStore黎明期)
+			.step.tile.yellow(data-x="0", data-y="2040", data-scale="1")
+				h1 新規性
+			.step.tile.yellow(data-x="620", data-y="2040", data-scale="1")
+				h2 類似アプリ
+				p Tumbkun
+				p Single Stream
+			.step.tile.yellow(data-x="1240", data-y="2040", data-scale="1")
+				h2 類似アプリ
+				p より少ないページ遷移
+				p Dashboardを見れる
+			.step.tile.green(data-x="0", data-y="2660", data-scale="1")
+				h1 ニーズ
+			.step.tile.green(data-x="620", data-y="2660", data-scale="1")
+				h2 ランキング
+				img(src="images/ranking.png")
+			.step.tile.green(data-x="1240", data-y="2660", data-scale="1")
+				h2 世界市場
+				img(src="images/market.png")
+			.step.tile.red(data-x="0", data-y="3280", data-scale="1")
+				h1 完成度
+			.step.tile.red(data-x="620", data-y="3280", data-scale="1")
+				h2 UX
+				p タブレット
+				p デスクトップ
+			.step.tile.red(data-x="1240", data-y="3280", data-scale="1")
+				h2 Tumblr API
+				p Crossover 250 limit World
+			.step.tile.purple(data-x="0", data-y="3900", data-scale="1")
+				h1(style="font-size: 130px;") デザイン
+			.step.tile.purple(data-x="620", data-y="3900", data-scale="1")
+				h2 洗練されたデザイン
+				img(src="images/design.png")
+			.step.tile.purple(data-x="1240", data-y="3900", data-scale="1")
+				h2 ポップなアイコン
+				img(src="images/icon.png")
+			.step.tile.final(data-x="1000", data-y="2350", data-scale="5")
+		script(type="text/javascript", src="javascripts/impress.js")
+		script(type="text/javascript") impress().init(); $(document).ready(function() { $(".final").on("click", function() { $(".blue:first").css({ opacity: "1.0" }); $(".pink:first").css({ opacity: "1.0" }); $(".yellow:first").css({ opacity: "1.0" }); $(".green:first").css({ opacity: "1.0" }); $(".red:first").css({ opacity: "1.0" }); $(".purple:first").css({ opacity: "1.0" }); }); });
