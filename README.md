@@ -1,4 +1,1 @@
-121222-reblog-monster
-=====================
-
-Windows8 App Con Presentation Resource
+http://e-jigsaw.github.com/121222-reblog-monster
